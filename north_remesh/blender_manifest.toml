@@ -1,0 +1,21 @@
+schema_version = "1.0.0"
+
+id = "north_remesh"
+version = "1.1.0"
+name = "North Remesh"
+tagline = "Rebuild faces as evenly sized triangles or quads"
+maintainer = "Alexandru Iftimi"
+type = "add-on"
+website = "https://github.com/alexandruiftimi-ns/NorthRemesh"
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+tags = ["Mesh", "Modeling"]
+
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  "*.pyc",
+  "*.zip",
+]
