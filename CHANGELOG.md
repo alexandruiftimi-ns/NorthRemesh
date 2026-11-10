@@ -18,7 +18,6 @@ All notable changes to North Remesh. The project uses
 - Crease vertices now slide along their crease, evening out spacing there.
 - Finish report shows the share of quads, the smallest angle and the share
   of poor-quality faces.
-- Test suite (`tests/`) and build script (`build.py`).
 
 ### Changed
 - **Face Limit** (was *Max Faces*) is now a hard limit: the size is raised

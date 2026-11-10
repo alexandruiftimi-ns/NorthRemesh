@@ -12,8 +12,8 @@ the existing border.
 
 Blender 4.2 or newer.
 
-1. Get `north_remesh-<version>.zip` by running `python build.py`, which
-   writes it to `dist/`.
+1. Download [north_remesh-1.1.0.zip](north_remesh-1.1.0.zip) from this
+   repository (open the file, then use the download button).
 2. In Blender: *Edit > Preferences > Get Extensions > ⌄ (top right) >
    Install from Disk…* and pick the zip.
 
@@ -63,17 +63,6 @@ angle and the share of poor-quality faces.
   (run *Merge by Distance* first).
 - Every loop has a fixed upper bound, and the face count is capped, so a size
   that is too small can't run away.
-
-## Development
-
-```
-blender -b --factory-startup --python tests/test_north_remesh.py   # run tests
-python build.py                                                     # build dist/north_remesh-<version>.zip
-```
-
-The version lives in `north_remesh/blender_manifest.toml`; `build.py` checks
-that `bl_info` in `north_remesh/__init__.py` matches. See
-[CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
