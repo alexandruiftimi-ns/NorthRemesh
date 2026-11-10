@@ -12,8 +12,8 @@ the existing border.
 
 Blender 4.2 or newer.
 
-1. Download [north_remesh-1.1.0.zip](north_remesh-1.1.0.zip) from this
-   repository (open the file, then use the download button).
+1. Download `north_remesh-<version>.zip` from the
+   [latest release](https://github.com/alexandruiftimi-ns/NorthRemesh/releases/latest).
 2. In Blender: *Edit > Preferences > Get Extensions > ⌄ (top right) >
    Install from Disk…* and pick the zip.
 
